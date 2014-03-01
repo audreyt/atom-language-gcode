@@ -1,0 +1,35 @@
+'fileTypes': [
+  'ngc'
+  'gcode'
+]
+'foldingStartMarker': '\\('
+'foldingStopMarker': '\\)'
+'name': 'G-Code'
+'patterns': [
+  {
+    'match': ';[^;]*'
+    'name': 'comment.gcode'
+  }
+  {
+    'match': '[gG]([ \\t]*[\\d])*[ \\t]*'
+    'name': 'keyword.control.gcode.gcode'
+  }
+  {
+    'match': '[mM]([ \\t]*[\\d])*[ \\t]*'
+    'name': 'keyword.control.mcode.gcode'
+  }
+  {
+    'match': '[xXyYzZfFpPqQEeSs]'
+    'name': 'string.parameter.gcode'
+  }
+  {
+    'match': '\\-?[\\d]+\\.?[\\d]*'
+    'name': 'constant.numeric.gcode'
+  }
+  {
+    'begin': '\\('
+    'end': '\\)'
+    'name': 'comment.gcode'
+  }
+]
+'scopeName': 'source.gcode'
