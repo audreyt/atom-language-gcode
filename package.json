@@ -1,12 +1,11 @@
 {
   "name": "language-gcode",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "G-Code grammar support",
   "repository": "https://github.com/audreyt/atom-language-gcode",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
