@@ -1,6 +1,6 @@
 {
   "name": "language-gcode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "G-Code grammar support",
   "repository": "https://github.com/audreyt/atom-language-gcode",
   "license": "MIT",
