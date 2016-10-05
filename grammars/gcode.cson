@@ -2,6 +2,9 @@
   'ngc'
   'nc'
   'gcode'
+  'ncf'
+  'cnc'
+  'pim'
 ]
 'foldingStartMarker': '\\('
 'foldingStopMarker': '\\)'
